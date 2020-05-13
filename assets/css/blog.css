@@ -1,0 +1,125 @@
+#body div.blog {
+	margin: 0 auto;
+
+	overflow: hidden;
+
+}
+
+#body div.blog .featured {
+	margin: 0 10px;
+	padding: 0;
+}
+
+
+#body div.blog .featured ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body div.blog .featured ul li:first-child {
+	margin: 0 0 10px 0;
+}
+#body div.blog .featured ul li {
+	float: none;
+	margin: 0 0 20px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+
+#body div.blog .featured ul li div {
+	float: left;
+	margin: 0;
+    padding: 10px 10px 10px 10px;
+    border-style: double;
+}
+#body div.blog .featured ul li div h1 {
+	color: #CB3362;
+	font-family: lato-regular-webfont;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 3px;
+	text-align: left;
+	text-transform: uppercase;
+}
+#body div.blog .featured ul li div span {
+	color: #7A6666;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 10px;
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: left;
+	text-transform: none;
+}
+#body div.blog .featured ul li div p {
+	color: #7a6666;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 39px 0;
+	text-align: left;
+	width: 100%;
+}
+#body div.blog .featured ul li div p a {
+	color: #7a6666;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body div.blog .featured ul li div a.more {
+	border: 2px solid #cbb5bc;
+	color: #a5838e;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 16px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 156px;
+}
+#body div.blog .featured ul li div a.more:hover {
+	background-color: #c8c10d;
+	border: none;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	width: 160px;
+}
+#body div.blog .featured a.load {
+	border: 2px solid #cbb5bc;
+	color: #a5838e;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 16px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 156px;
+}
+
+#me{
+    float: left;
+    margin: 2%;
+}

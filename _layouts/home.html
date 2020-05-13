@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{%if page.img %}
+    <img src = "{{baseurl}}/assets/img/{{page.img}}" id="me">
+{%else%}
+    <img src = "http://via.placeholder.com/320x360" id = "me">
+{% endif %}
+
+{{ content }}
